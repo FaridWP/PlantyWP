@@ -26,8 +26,5 @@
             <ul class="menu-items">
                 <?php wp_nav_menu(array('theme_location' => 'wp_planty_main_menu', 'depth' => 0)); ?>
             </ul>
-            <div class="btn-header">
-                <a href="<?php echo esc_url(site_url('comman der')); ?>">Commander</a>
-            </div>
         </nav>
     </header>
