@@ -154,20 +154,22 @@ section.hero {
     width: 800px;
 }
 
-section.introduction {
+.introduction {
     width: 100vw;
-    background-size: cover;
+    min-height: 415px;
+    background-image: url("http://localhost:8000/planty/wp-content/uploads/2023/12/Rectangle-6.png");
+    background-size: 100vw 415px;
+    background-repeat: no-repeat;
     filter: drop-shadow(0 -2mm 2mm grey);
     display: flex;
     gap: 47px;
     flex-direction: column;
     justify-content: center;
-    padding-bottom: 70px;
+    padding-top: 60px;
 }
 
 section.introduction h3 {
     color: var(--green-1);
-    margin-top: 130px;
 }
 
 section.gouts {
@@ -221,6 +223,9 @@ section.gouts {
     flex-direction: column;
     gap: 40px;
     padding-top: 130px;
+    background-image: url("http://localhost:8000/planty/wp-content/uploads/2023/12/Rectangle-7.png");
+    background-size: 100vw 100%;
+    background-repeat: no-repeat;
 }
 
 .avis-main {
@@ -237,6 +242,7 @@ section.gouts {
 }
 .avis-container {
     display: flex;
+    padding-bottom: 120px;
 }
 
 .img-footer {
