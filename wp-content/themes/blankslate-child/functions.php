@@ -41,7 +41,7 @@ function add_admin_link($items, $args)
 {
     if (is_user_logged_in()) {
         if ($args->theme_location == 'wp_planty_main_menu') {
-            $items = $items . '<li id="admin"><a class="menu-items admin" title="Admin" href="' . admin_url() . '">Admin</a></li>';
+            $items = $items . '<li id="admin"><a class="menu-items admin" title="Admin" href="' . admin_url() . '" target="_blank">Admin</a></li>';
         }
     }
     return $items;
