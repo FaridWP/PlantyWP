@@ -486,3 +486,31 @@ section.gouts {
     justify-content: right;
     padding-top: 71px;
 }
+
+.rencontre-container-equipe {
+    height: 554px;
+    background-image: url("http://localhost:8000/planty/wp-content/uploads/2023/12/Frame-1.png");
+    background-size: 100vw 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    gap: 52px;
+}
+
+.rencontre-container-equipe h3 {
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 52px;
+    text-align: center;
+}
+.rencontre-container-equipe h4 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.equipe-col {
+    gap: 157px;
+}
