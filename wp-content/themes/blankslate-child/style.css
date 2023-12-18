@@ -458,7 +458,6 @@ section.gouts {
 
 .rencontre {
     display: flex;
-    width: 1440p;
     justify-content: center;
     height: 300px;
 }
@@ -600,4 +599,63 @@ section.gouts {
 }
 .wpcf7-spinner {
     display: none;
+}
+
+@media screen and (max-width: 840px) {
+    .rencontre-img {
+        display: flex;
+        height: 100%;
+        justify-content: left;
+        padding-top: 71px;
+    }
+
+    .equipe-col {
+        max-width: 1440px;
+        gap: 50px;
+    }
+}
+@media screen and (max-width: 630px) {
+    .rencontre-col {
+        display: flex;
+        color: var(--pink);
+        align-content: center;
+        width: 300px;
+    }
+
+    .rencontre-text h1 {
+        font-size: 24px;
+        padding-top: 60px;
+        padding-bottom: 20px;
+    }
+    .rencontre-img {
+        display: none;
+    }
+
+    .rencontre-container-equipe {
+        height: 1000px;
+    }
+
+    .rencontre-container-equipe h3 {
+        padding-bottom: 20px;
+        padding-top: 130px;
+    }
+
+    .equipe-col {
+        gap: 40px;
+    }
+
+    .rencontre-contact {
+        padding-top: 66px;
+    }
+
+    #wpcf7-f102-o1 label,
+    .wpcf7-text,
+    .wpcf7-textarea {
+        display: flex;
+        width: 300px;
+        text-align: left;
+        flex-direction: column;
+        border-radius: 7px;
+        border: none;
+    }
 }
