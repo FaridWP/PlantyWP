@@ -596,9 +596,15 @@ section.gouts {
     font-style: normal;
     font-weight: 400;
     line-height: 37px;
+
+    cursor: pointer;
 }
 .wpcf7-spinner {
     display: none;
+}
+
+input {
+    font-size: 24px;
 }
 
 @media screen and (max-width: 840px) {
