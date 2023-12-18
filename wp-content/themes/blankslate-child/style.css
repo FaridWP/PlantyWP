@@ -458,6 +458,7 @@ section.gouts {
 
 .rencontre {
     display: flex;
+    width: 1440p;
     justify-content: center;
     height: 300px;
 }
@@ -511,5 +512,92 @@ section.gouts {
 }
 
 .equipe-col {
+    max-width: 1440px;
     gap: 157px;
+}
+
+.rencontre-contact {
+    display: flex;
+    /* max-width: 1440px; */
+    height: 840px;
+    background-image: url("http://localhost:8000/planty/wp-content/uploads/2023/12/Fond-Contact.png");
+    background-size: 100vw 100%;
+    background-repeat: no-repeat;
+    justify-content: center;
+    padding-top: 66px;
+}
+
+.rencontre-title {
+    padding-bottom: 45px;
+    text-align: center;
+}
+
+.rencontre-form {
+    max-width: 1440px;
+    background-image: url("http://localhost:8000/planty/wp-content/uploads/2023/12/Fond-Contact.png");
+    background-size: 100vw 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+}
+
+.rencontre-contact-form {
+    display: flex;
+}
+#wpcf7-f102-o1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#wpcf7-f102-o1 label,
+.wpcf7-text,
+.wpcf7-textarea {
+    display: flex;
+    width: 380px;
+    text-align: left;
+    flex-direction: column;
+    border-radius: 7px;
+    border: none;
+}
+#wpcf7-f102-o1 .wpcf7-textarea,
+.wpcf7-text {
+    margin-top: 13px;
+    margin-bottom: 22px;
+}
+
+#wpcf7-f102-o1 .wpcf7-textarea {
+    width: 100%;
+    height: 237px;
+}
+#wpcf7-f102-o1 .wpcf7-text {
+    width: 100%;
+    height: 71px;
+}
+#wpcf7-f102-o1 p {
+    display: flex;
+    justify-content: center;
+}
+#wpcf7-f102-o1 .wpcf7-submit {
+    width: 198px;
+    height: 55px;
+    padding: 9px 0px;
+    justify-content: center;
+    align-items: center;
+
+    border: none;
+    border-radius: 5px;
+    background: #e0b9b4;
+
+    color: #fff;
+    text-align: center;
+    font-family: "Syne";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 37px;
+}
+.wpcf7-spinner {
+    display: none;
 }
