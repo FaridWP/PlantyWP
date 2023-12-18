@@ -665,3 +665,54 @@ input {
         border: none;
     }
 }
+
+/* PAGE COMMANDER */
+
+main {
+    background-color: var(--green-1);
+    padding-top: 69px;
+    color: var(--white);
+    display: flex;
+    /* justify-content: center; */
+}
+
+.commande-container {
+    /* max-width: 1440px; */
+}
+
+.commande-title {
+    width: 100%;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.commande-bar {
+    width: 100%;
+    text-align: center;
+}
+
+.commande-group {
+    width: 860px;
+    display: flex;
+    align-self: center;
+}
+
+.commande-subtitle {
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 39px;
+}
+
+.commande-imgs {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 26px;
+    padding-bottom: 10px;
+}
+
+.commande-btn {
+    width: 39px;
+    height: 56px;
+    text-align: center;
+}
