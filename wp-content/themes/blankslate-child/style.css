@@ -668,16 +668,17 @@ input {
 
 /* PAGE COMMANDER */
 
-main {
+.commande-container {
     background-color: var(--green-1);
     padding-top: 69px;
     color: var(--white);
     display: flex;
-    /* justify-content: center; */
+    justify-content: center;
+    /* max-width: 1440px; */
 }
 
-.commande-container {
-    /* max-width: 1440px; */
+.commande-container-col {
+    max-width: 1440px;
 }
 
 .commande-title {
@@ -689,6 +690,7 @@ main {
 .commande-bar {
     width: 100%;
     text-align: center;
+    padding-bottom: 53px;
 }
 
 .commande-group {
@@ -698,15 +700,17 @@ main {
 }
 
 .commande-subtitle {
-    width: 100%;
-    padding-top: 40px;
+    width: 860px;
+    text-align: left;
     padding-bottom: 39px;
 }
 
 .commande-imgs {
+    width: 100%;
     display: flex;
     align-items: center;
     text-align: center;
+    justify-content: center;
     gap: 26px;
     padding-bottom: 10px;
 }
@@ -715,4 +719,90 @@ main {
     width: 39px;
     height: 56px;
     text-align: center;
+}
+
+.form-container {
+    width: 860px;
+    display: flex;
+    justify-content: left;
+    gap: 45px;
+}
+
+.form-container-col {
+}
+.form-container-col.line-col {
+    border-left: 1px solid var(--white);
+    padding-left: 44px;
+}
+
+#wpcf7-f103-o1 .wpcf7-submit {
+    display: flex;
+    width: 198px;
+    height: 55px;
+    padding: 9px 57px 9px 56px;
+    justify-self: center;
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+
+    border-radius: 5px;
+    border: none;
+    background: #e0b9b4;
+    color: white;
+    cursor: pointer;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+#wpcf7-f103-o1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#wpcf7-f103-o1 label {
+    color: var(--white);
+}
+#wpcf7-f103-o1 h3 {
+    padding-bottom: 29px;
+}
+
+#wpcf7-f103-o1 label,
+.wpcf7-text,
+.wpcf7-textarea,
+.wpcf7-number {
+    display: flex;
+    width: 380px;
+    text-align: left;
+    flex-direction: column;
+    border-radius: 7px;
+    border: none;
+}
+#wpcf7-f103-o1 .wpcf7-textarea,
+.wpcf7-text,
+.wpcf7-number {
+    margin-top: 13px;
+    margin-bottom: 22px;
+}
+
+#wpcf7-f103-o1 .wpcf7-textarea {
+    width: 100%;
+    height: 237px;
+}
+#wpcf7-f103-o1 .wpcf7-text,
+.wpcf7-number {
+    width: 100%;
+    height: 71px;
+}
+#wpcf7-f103-o1 p {
+    display: flex;
+    justify-content: center;
+}
+
+.wpcf7-spinner {
+    display: none;
+}
+
+input {
+    font-size: 24px;
 }
