@@ -728,8 +728,6 @@ input {
     gap: 45px;
 }
 
-.form-container-col {
-}
 .form-container-col.line-col {
     border-left: 1px solid var(--white);
     padding-left: 44px;
@@ -803,6 +801,191 @@ input {
     display: none;
 }
 
-input {
-    font-size: 24px;
+@media screen and (max-width: 860px) {
+    .commande-container {
+        background-color: var(--green-1);
+        padding-top: 69px;
+        color: var(--white);
+        display: flex;
+        justify-content: center;
+        /* width: 800px; */
+    }
+
+    .commande-container-col {
+        width: 100%;
+        align-content: center;
+    }
+
+    .commande-title {
+        width: 100%;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+
+    .commande-bar {
+        width: 100%;
+        padding-bottom: 53px;
+    }
+
+    .commande-group {
+        width: 860px;
+        display: flex;
+        align-self: center;
+    }
+
+    .commande-subtitle {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 39px;
+    }
+
+    .commande-imgs {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        gap: 26px;
+        padding-bottom: 10px;
+    }
+
+    .commande-btn {
+        width: 39px;
+        height: 56px;
+        text-align: center;
+    }
+
+    .form-container {
+        width: 860px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .form-container-col {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    .form-container-col.line-col {
+        border-left: none;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .commande-container-col {
+        width: 100%;
+        align-content: center;
+    }
+
+    .commande-title {
+        width: 100%;
+        padding-bottom: 50px;
+        text-align: center;
+        font-size: 26px;
+    }
+
+    .commande-bar {
+        width: 100%;
+        padding-bottom: 53px;
+    }
+
+    .commande-group {
+        width: 860px;
+        display: flex;
+        align-self: center;
+    }
+
+    .commande-subtitle {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 39px;
+    }
+
+    .commande-imgs {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        gap: 26px;
+        padding-bottom: 10px;
+    }
+
+    .commande-btn {
+        width: 39px;
+        height: 56px;
+        text-align: center;
+    }
+
+    .form-container {
+        width: 320px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+    }
+
+    .form-container-col {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+    }
+    .form-container-col.line-col {
+        width: 320px;
+        padding-left: 0;
+    }
+
+    #wpcf7-f103-o1 {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    #wpcf7-f103-o1 label {
+        color: var(--white);
+        width: 100%;
+        text-align: center;
+    }
+    #wpcf7-f103-o1 h3 {
+        padding-bottom: 29px;
+    }
+
+    #wpcf7-f103-o1 label,
+    .wpcf7-text,
+    .wpcf7-textarea,
+    .wpcf7-number {
+        display: flex;
+        width: 300px;
+        text-align: center;
+        flex-direction: column;
+        border-radius: 7px;
+        border: none;
+    }
+    #wpcf7-f103-o1 .wpcf7-textarea,
+    .wpcf7-text,
+    .wpcf7-number {
+        margin-top: 13px;
+        margin-bottom: 22px;
+    }
+
+    #wpcf7-f103-o1 .wpcf7-textarea {
+        width: 100%;
+        height: 237px;
+    }
+    #wpcf7-f103-o1 .wpcf7-text,
+    .wpcf7-number {
+        width: 100%;
+        height: 71px;
+    }
+    #wpcf7-f103-o1 p {
+        display: flex;
+        justify-content: center;
+    }
 }
