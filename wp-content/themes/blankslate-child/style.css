@@ -97,12 +97,17 @@ body {
 /* HEADER */
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    /* width: 100%; */
+    /* width: 1440px; */
     min-height: 80px;
     flex-shrink: 0;
     background-color: var(--white);
+}
+
+.navbar {
+    display: flex;
+    width: 1440px;
 }
 
 .logo {
@@ -355,7 +360,7 @@ section.gouts {
 
 /* Responsive max 420px */
 @media screen and (max-width: 420px) {
-    header {
+    .navbar {
         flex-direction: column;
         justify-content: center;
         gap: 5px;
